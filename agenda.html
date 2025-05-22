@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DESMONTANDO - AMAE</title>
+    <title>AGENDA</title>
     <link href="https://api.fontshare.com/v2/css?f[]=hk-grotesk@400,500,700&display=swap" rel="stylesheet">
     <style>
         /* Base styles */
-        body, html {
+        body,
+        html {
             font-family: 'HK Grotesk', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000;
+            background-color: #000 !important;
+            /* Forzar fondo negro */
             color: #fff;
             line-height: 1.6;
         }
@@ -25,6 +27,8 @@
         .container {
             max-width: 600px;
             margin: 0 auto;
+            background-color: #000 !important;
+            /* Asegurar fondo negro */
         }
 
         /* Button styles */
@@ -98,6 +102,8 @@
             color: #eeeeee;
             font-size: 16px;
             line-height: 1.7;
+            background-color: #000 !important;
+            /* Asegurar fondo negro */
         }
 
         .alert-box {
@@ -111,7 +117,8 @@
         /* Footer styles */
         .footer {
             padding: 20px 30px;
-            background-color: #111;
+            background-color: #000 !important;
+            /* Cambiar a negro puro */
             border-radius: 0 0 8px 8px;
         }
 
@@ -125,25 +132,38 @@
 
         /* Card style */
         .card {
-            background-color: #1a1a1a;
+            background-color: #0a0a0a !important;
+            /* Oscurecer más el fondo */
             border-radius: 8px;
             padding: 20px;
             margin-bottom: 20px;
             border: 1px solid #333;
         }
+
+        table,
+        tr,
+        td {
+            background-color: #000 !important;
+        }
+
+        .main-container {
+            background-color: #000 !important;
+           
+        }
     </style>
 </head>
 
 <body>
-    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #000; padding: 20px;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#000000"
+        style="background-color: #000000 !important; padding: 20px;">
         <tr>
-            <td align="center">
-                <table class="container" width="100%" cellpadding="0" cellspacing="0" border="0"
-                    style="max-width: 600px; background-color: #111; padding: 30px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+            <td align="center" bgcolor="#000000" style="background-color: #000000 !important;">
+                <table class="container main-container" width="100%" cellpadding="0" cellspacing="0" border="0"
+                    style="max-width: 600px; background-color: #000000 !important; padding: 30px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
 
                     <!-- Header with logo -->
                     <tr>
-                        <td align="center" style="padding: 20px 0 25px;">
+                        <td align="center" style="padding: 20px 0 25px; background-color: #000000 !important;">
                             <img src="https://res.cloudinary.com/dyji6w7iu/image/upload/v1742492704/logtipo02_glitch0_rgb_blanco_nt3aj5.png"
                                 alt="AMAE" width="100%" style="max-width: 220px; display: block;">
                         </td>
@@ -151,24 +171,28 @@
 
                     <!-- Colored divider -->
                     <tr>
-                        <td>
+                        <td bgcolor="#000000" style="background-color: #000000 !important;">
                             <div class="accent-divider"></div>
                         </td>
                     </tr>
 
                     <!-- Important Notice Section -->
                     <tr>
-                        <td class="content-section">
+                        <td class="content-section" bgcolor="#000000"
+                            style="background-color: #000000 !important; padding-top: 80px;">
                             <div class="card">
-                                <h2 style="color: #FF4D4D; margin-top: 0; font-size: 20px;">AVISO IMPORTANTE SOBRE LA AGENDA</h2>
+                                <h2 style="color: #FF4D4D; margin-top: 0; font-size: 20px;">AVISO IMPORTANTE SOBRE LA
+                                    AGENDA</h2>
                                 <div class="alert-box">
                                     <p style="margin-top: 0;">
-                                        Hemos realizado ajustes técnicos de mantenimiento en nuestra web que afectan a la
+                                        Hemos realizado ajustes técnicos de mantenimiento en nuestra web que afectan a
+                                        la
                                         <strong>sincronización del calendario</strong>.
                                     </p>
                                     <p style="margin-bottom: 0;">
-                                        Si tienes la agenda de AMAE conectada a tu calendario personal, es necesario que 
-                                        <strong>vuelvas a sincronizarla</strong> para seguir recibiendo correctamente los eventos.
+                                        Si tienes la agenda de AMAE conectada a tu calendario personal, es necesario que
+                                        <strong>vuelvas a sincronizarla</strong> para seguir recibiendo correctamente
+                                        los eventos.
                                     </p>
                                 </div>
                                 <p>
@@ -184,56 +208,60 @@
                         </td>
                     </tr>
 
+
                     <!-- Main image -->
                     <tr>
-                        <td align="center" style="padding: 0 25px 30px;">
+                        <td align="center" style="padding: 0 25px 30px; background-color: #000000 !important;">
                             <img src="https://amae.pro/wp-content/uploads/2025/05/Sin-título.png"
                                 alt="Fotograma de Alcarràs" class="responsive-img"
                                 style="max-width: 450px; border: 1px solid #333;">
-                           
+
                         </td>
                     </tr>
-                    
+
                     <!-- CTA Button -->
                     <tr>
-                        <td align="center" style="padding-bottom: 30px;">
-                            <a href="https://www.amae.pro/agenda" class="button"
-                                style="width: 200px;">IR A LA AGENDA</a>
+                        <td align="center" style="padding-bottom: 30px; background-color: #000000 !important;">
+                            <a href="https://www.amae.pro/agenda" class="button" style="width: 200px;">IR A LA
+                                AGENDA</a>
                         </td>
                     </tr>
 
                     <!-- Divider -->
                     <tr>
-                        <td>
+                        <td bgcolor="#000000" style="background-color: #000000 !important;">
                             <div class="divider"></div>
                         </td>
                     </tr>
 
                     <!-- Footer -->
                     <tr>
-                        <td class="footer">
-                            <table role="presentation" cellpadding="0" cellspacing="0" style="width: 100%; border: 0;">
+                        <td class="footer" bgcolor="#000000" style="background-color: #000000 !important;">
+                            <table role="presentation" cellpadding="0" cellspacing="0"
+                                style="width: 100%; border: 0; background-color: #000000 !important;">
                                 <!-- Social Media Links -->
                                 <tr>
-                                    <td align="center" style="padding-bottom: 25px;">
+                                    <td align="center"
+                                        style="padding-bottom: 25px; background-color: #000000 !important;">
                                         <p style="font-size: 14px; color: #999999; margin: 0 0 15px;">Síguenos en
                                             nuestras redes:</p>
                                         <table role="presentation" cellpadding="0" cellspacing="0" border="0"
-                                            align="center">
+                                            align="center" bgcolor="#000000"
+                                            style="background-color: #000000 !important;">
                                             <tr>
-                                                <td style="padding: 0 10px;">
+                                                <td style="padding: 0 10px; background-color: #000000 !important;">
                                                     <a href="https://www.linkedin.com/in/amae-asociaci%C3%B3n-de-montadores-audiovisuales-de-espa%C3%B1a-7bb82b226/"
                                                         target="_blank" class="social-link">
                                                         LinkedIn
                                                     </a>
                                                 </td>
-                                                <td style="padding: 0 10px;">
+                                                <td style="padding: 0 10px; background-color: #000000 !important;">
                                                     <a href="https://www.instagram.com/amae.pro/" target="_blank"
                                                         class="social-link">
                                                         Instagram
                                                     </a>
                                                 </td>
-                                                <td style="padding: 0 10px;">
+                                                <td style="padding: 0 10px; background-color: #000000 !important;">
                                                     <a href="https://www.facebook.com/amae.pro" target="_blank"
                                                         class="social-link">
                                                         Facebook
@@ -246,7 +274,8 @@
 
                                 <!-- Web button -->
                                 <tr>
-                                    <td align="center" style="padding-bottom: 25px;">
+                                    <td align="center"
+                                        style="padding-bottom: 25px; background-color: #000000 !important;">
                                         <a href="https://www.amae.pro" target="_blank" class="web-button">
                                             Visita nuestra web
                                         </a>
@@ -255,12 +284,14 @@
 
                                 <!-- Copyright -->
                                 <tr>
-                                    <td align="center">
+                                    <td align="center" bgcolor="#000000" style="background-color: #000000 !important;">
                                         <p style="font-size: 12px; color: #666666; margin: 0;">
                                             © 2025 AMAE - Asociación de Montadores Audiovisuales de España
                                         </p>
                                         <p style="font-size: 11px; color: #555555; margin: 10px 0 0;">
-                                            Si no deseas recibir más correos, puedes <a href="https://amae.pro/mi-suscripcion" style="color: #777; text-decoration: underline;">darte de baja</a>
+                                            Si no deseas recibir más correos, puedes <a
+                                                href="https://amae.pro/mi-suscripcion"
+                                                style="color: #777; text-decoration: underline;">darte de baja</a>
                                         </p>
                                     </td>
                                 </tr>
