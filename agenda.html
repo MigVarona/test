@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESMONTANDO - AMAE</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=hk-grotesk@400,500,700&display=swap" rel="stylesheet">
+    <style>
+        /* Base styles */
+        body, html {
+            font-family: 'HK Grotesk', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Utility classes */
+        .highlight {
+            color: #FF4D4D;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Button styles */
+        .button {
+            background-color: #FF4D4D;
+            color: #fff !important;
+            padding: 14px 28px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .button:hover {
+            background-color: #ff3333;
+        }
+
+        /* Social links */
+        .social-link {
+            display: inline-block;
+            margin: 0 10px;
+            color: #cccccc;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s;
+            padding: 5px;
+        }
+
+        .social-link:hover {
+            color: #FF4D4D;
+        }
+
+        /* Dividers */
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #333, transparent);
+            margin: 20px 0;
+        }
+
+        .accent-divider {
+            height: 3px;
+            background: linear-gradient(to right, #111, #FF4D4D, #111);
+            margin: 0 40px 30px;
+        }
+
+        /* Web button */
+        .web-button {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            border: 1px solid #444;
+            border-radius: 4px;
+            padding: 8px 16px;
+            transition: all 0.3s;
+        }
+
+        .web-button:hover {
+            border-color: #FF4D4D;
+            color: #FF4D4D;
+        }
+
+        /* Content sections */
+        .content-section {
+            padding: 0 25px 30px;
+            color: #eeeeee;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        .alert-box {
+            background-color: rgba(255, 77, 77, 0.1);
+            border-left: 4px solid #FF4D4D;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 0 4px 4px 0;
+        }
+
+        /* Footer styles */
+        .footer {
+            padding: 20px 30px;
+            background-color: #111;
+            border-radius: 0 0 8px 8px;
+        }
+
+        /* Responsive image */
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
+
+        /* Card style */
+        .card {
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+
+<body>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #000; padding: 20px;">
+        <tr>
+            <td align="center">
+                <table class="container" width="100%" cellpadding="0" cellspacing="0" border="0"
+                    style="max-width: 600px; background-color: #111; padding: 30px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+
+                    <!-- Header with logo -->
+                    <tr>
+                        <td align="center" style="padding: 20px 0 25px;">
+                            <img src="https://res.cloudinary.com/dyji6w7iu/image/upload/v1742492704/logtipo02_glitch0_rgb_blanco_nt3aj5.png"
+                                alt="AMAE" width="100%" style="max-width: 220px; display: block;">
+                        </td>
+                    </tr>
+
+                    <!-- Colored divider -->
+                    <tr>
+                        <td>
+                            <div class="accent-divider"></div>
+                        </td>
+                    </tr>
+
+                    <!-- Important Notice Section -->
+                    <tr>
+                        <td class="content-section">
+                            <div class="card">
+                                <h2 style="color: #FF4D4D; margin-top: 0; font-size: 20px;">AVISO IMPORTANTE SOBRE LA AGENDA</h2>
+                                <div class="alert-box">
+                                    <p style="margin-top: 0;">
+                                        Hemos realizado ajustes técnicos de mantenimiento en nuestra web que afectan a la
+                                        <strong>sincronización del calendario</strong>.
+                                    </p>
+                                    <p style="margin-bottom: 0;">
+                                        Si tienes la agenda de AMAE conectada a tu calendario personal, es necesario que 
+                                        <strong>vuelvas a sincronizarla</strong> para seguir recibiendo correctamente los eventos.
+                                    </p>
+                                </div>
+                                <p>
+                                    Puedes hacerlo desde la sección <strong style="color: #FF4D4D;">Agenda</strong> de
+                                    nuestra web siguiendo estos pasos:
+                                </p>
+                                <ol style="padding-left: 20px; color: #ddd;">
+                                    <li>Visita nuestra web amae.pro</li>
+                                    <li>Accede a la sección "Agenda"</li>
+                                    <li>Haz clic en "Sincronizar calendario"</li>
+                                </ol>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- Main image -->
+                    <tr>
+                        <td align="center" style="padding: 0 25px 30px;">
+                            <img src="https://amae.pro/wp-content/uploads/2025/05/Sin-título.png"
+                                alt="Fotograma de Alcarràs" class="responsive-img"
+                                style="max-width: 450px; border: 1px solid #333;">
+                           
+                        </td>
+                    </tr>
+                    
+                    <!-- CTA Button -->
+                    <tr>
+                        <td align="center" style="padding-bottom: 30px;">
+                            <a href="https://www.amae.pro/agenda" class="button"
+                                style="width: 200px;">IR A LA AGENDA</a>
+                        </td>
+                    </tr>
+
+                    <!-- Divider -->
+                    <tr>
+                        <td>
+                            <div class="divider"></div>
+                        </td>
+                    </tr>
+
+                    <!-- Footer -->
+                    <tr>
+                        <td class="footer">
+                            <table role="presentation" cellpadding="0" cellspacing="0" style="width: 100%; border: 0;">
+                                <!-- Social Media Links -->
+                                <tr>
+                                    <td align="center" style="padding-bottom: 25px;">
+                                        <p style="font-size: 14px; color: #999999; margin: 0 0 15px;">Síguenos en
+                                            nuestras redes:</p>
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0"
+                                            align="center">
+                                            <tr>
+                                                <td style="padding: 0 10px;">
+                                                    <a href="https://www.linkedin.com/in/amae-asociaci%C3%B3n-de-montadores-audiovisuales-de-espa%C3%B1a-7bb82b226/"
+                                                        target="_blank" class="social-link">
+                                                        LinkedIn
+                                                    </a>
+                                                </td>
+                                                <td style="padding: 0 10px;">
+                                                    <a href="https://www.instagram.com/amae.pro/" target="_blank"
+                                                        class="social-link">
+                                                        Instagram
+                                                    </a>
+                                                </td>
+                                                <td style="padding: 0 10px;">
+                                                    <a href="https://www.facebook.com/amae.pro" target="_blank"
+                                                        class="social-link">
+                                                        Facebook
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <!-- Web button -->
+                                <tr>
+                                    <td align="center" style="padding-bottom: 25px;">
+                                        <a href="https://www.amae.pro" target="_blank" class="web-button">
+                                            Visita nuestra web
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <!-- Copyright -->
+                                <tr>
+                                    <td align="center">
+                                        <p style="font-size: 12px; color: #666666; margin: 0;">
+                                            © 2025 AMAE - Asociación de Montadores Audiovisuales de España
+                                        </p>
+                                        <p style="font-size: 11px; color: #555555; margin: 10px 0 0;">
+                                            Si no deseas recibir más correos, puedes <a href="https://amae.pro/mi-suscripcion" style="color: #777; text-decoration: underline;">darte de baja</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
